@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.header__logo {
+    width: 120px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header__middle {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid #cccccc;
+}
+.header__middle > input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+}
+.header__middle > .MuiSvgIcon-root {
+    background-color: #f8f8f8;
+    color: #aea9a9;
+    font-size: 16px;
+    width: 65px;
+    height: 32px;
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+}
+.header__middle > .MuiSvgIcon-root:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+.header__right-icon {
+    margin-right: 20px;
+    color: #777777
+}
