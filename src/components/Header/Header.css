@@ -24,14 +24,20 @@
     border: none;
     padding: 8px;
 }
-.header__middle > .MuiSvgIcon-root {
+.header__middle > a {
     background-color: #f8f8f8;
     color: #aea9a9;
-    font-size: 16px;
     width: 65px;
     height: 32px;
     cursor: pointer;
     border-left: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__middle > a .MuiSvgIcon-root {
+    color: #aea9a9;
+    font-size: 22px;
 }
 .header__middle > .MuiSvgIcon-root:hover {
     background-color: #f0f0f0;
