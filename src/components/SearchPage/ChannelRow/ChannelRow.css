@@ -1,0 +1,50 @@
+.channelRow {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .9rem;
+    margin-bottom: 1.5rem;
+}
+.channelRow__logo {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+.channel__info {
+    display: flex;
+    align-items: center;
+}
+.channelRow__text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+}
+.channelRow__text > h4 {
+    display: flex;
+    margin-bottom: .6rem;
+}
+.channelRow__text h4 > .MuiSvgIcon-root {
+    margin-left: .5rem;
+    font-size: 1.3rem;
+    color: #666;
+}
+.channelRow__text p {
+    color: #606060;
+    font-size: small;
+}
+.channel__analytics {
+    margin-bottom: .3rem;
+}
+
+.subscribe__btn {
+    border: 0;
+    outline: 0;
+    background: #c00;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2.5rem;
+    padding: 0 .8rem;
+}

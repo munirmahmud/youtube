@@ -1,3 +1,18 @@
 .searchPage {
     flex: 0.8;
+    margin: 20px 40px;
+}
+.searchPage__filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .4rem;
+    margin-bottom: 1rem;
+}
+.searchPage__filter > h2 {
+    margin-left: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
