@@ -21,7 +21,15 @@ const SearchPage = () => {
                 description="A set of reusable components for design tools is available, designed to match the React components, and to help you craft great products"
             />
 
-            <VideoRow />
+            <VideoRow 
+                views="44k"
+                subs="45k"
+                description="The following npm package, @material-ui/icons, includes the 1,100+ official Material icons converted to SvgIcon components."
+                timestamp="2"
+                channel="Clever Programmer"
+                title="The Resume That Got Me Into Google and Microsoft (Reviewing your Resumes LIVE)"
+                image="https://i.ytimg.com/vi/kUi1JIp7eVk/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCesGteZ48a6yD8LAYKvdxEqfcbjA"
+            />
         </div>
     );
 };
